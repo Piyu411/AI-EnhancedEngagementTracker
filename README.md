@@ -16,54 +16,65 @@ Anaconda (recommended for environment management)
 Visual Studio Code (recommended for code editing)
 Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/Piyu411/AI-EnhancedEngagementTracker.git
 cd AI-EnhancedEngagementTracker
 Create a virtual environment with Anaconda:
-
-bash
-Copy code
 conda create -n engagement-tracker python=3.10
 conda activate engagement-tracker
 Install the required packages:
-
-bash
-Copy code
 pip install -r requirements.txt
 (Optional) Set up API keys for any external services used, like sentiment analysis APIs.
 
+
+Project Structure::-
+Image Processing Libraries or Frame Works used - opencv Version - 4.10.0.84 Developed Logics -
+A) Image_Noise removal & Closing Gaps :- From the input image given, used to remove the noise and close the gaps 
+B) Image_Template :- From the image given, we can 
+C) Image_Colour :- From the input image given, increase the quality of colour comination in the image 
+D) Image_Concatenation :- From the input images given, we can conacatenate those images generally used for 2 or more images
+E) Image_Contour :-
+F) Image_Crop :- From the input image given, we can crop the image 
+G) Image_Detection and Erosion :- From the input image given, we can detect the image and erosion 
+H) Image_edge detection :- From the input image given, we can detect the edges of image 
+I) Image_equalized :- From the input image given, we can equalize the image 
+J) Image_hsv :-
+K) Image_morph :-
+L) Image_resize :- From the input image given, we can resize the image 
+M) Image_rgb to gray :- From the input image given, we can convert the image from colour to gray 
+N) Image_single image :-
+O) Image_blur :- From the input image given, we can blur the image
+
+Video Processing Libraries or Frame Works used - opencv Version - 4.10.0.84 Developed Logics - 
+A) Video_multivideo :- From the video recorded live or given, can add multiple video side by side 
+B) Video_fps :- From the video recorded live or given, we can change the frames per second in the video 
+C) Video_save :- From the video recorded live or given, we can save the video into the folder 
+D) Video_stack :- From the video recorded live or given, we can combine the videos 
+E) Video_stream From this we can stream or record the video through web cam
+
+Annotations Libraries or Frame Works used - opencv, labelImg Version - 4.10.0.84, 1.8.6 Developed Logics - 
+A) data_segregate :- From this we can segregate the data of images that we are taken 
+B) label From this label, we can label the images 
+C) label_manipulate From this label_manipulate, we can update the labels
+
+Face Recognition Libraries or Frame Works used - opencv, labelImg, dlib, face_recognition, imutils Version - 4.10.0.84, 1.8.6, 19.24.6, 1.3.0, 0.5.4 Developed Logics - 
+A) Face_recognition 
+B) Attendence_save 
+C) test 
+D) tools 
+E) excel_sc 
+F) excel_sc_dt 
+G) landmark 
+H) atten_score 
+I) avg_atten_score
+
+Obama
+
 Usage
 Launch the main script:
-
-bash
-Copy code
 python main.py
 Configure settings such as engagement metrics, notification thresholds, and data sources through the provided interface.
 
 Access your customizable dashboard to monitor real-time data and view engagement insights.
-
-Project Structure
-plaintext
-Copy code
-AI-EnhancedEngagementTracker/
-├── data/                # Sample and generated data
-├── models/              # Machine learning models
-├── src/                 # Source code
-│   ├── preprocessing/   # Data preprocessing modules
-│   ├── analysis/        # Data analysis and engagement tracking scripts
-│   ├── visualization/   # Visualization modules
-│   └── config.py        # Configuration settings
-├── main.py              # Entry point for running the app
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
-Contributing
-Fork the repository.
-Create a feature branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
 
 License
 
