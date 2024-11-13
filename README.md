@@ -17,6 +17,8 @@ Anaconda (recommended for environment management)
 Visual Studio Code (recommended for code editing)
 Installation
 Clone the repository:
+![o](https://github.com/user-attachments/assets/3bcf836d-3dbc-41fa-a9b4-6b26266bb8e8)
+
 git clone https://github.com/Piyu411/AI-EnhancedEngagementTracker.git
 
 cd AI-EnhancedEngagementTracker
