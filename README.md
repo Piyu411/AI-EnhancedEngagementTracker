@@ -3,6 +3,7 @@ Overview
 AI-EnhancedEngagementTracker is an AI-driven project designed to monitor, analyze, and improve user engagement across various platforms. It utilizes machine learning models and data analytics to provide actionable insights, helping teams to better understand user behavior, boost engagement, and tailor content or services accordingly.
 
 Features
+
 Real-time Engagement Tracking: Monitors user activities and interactions in real-time.
 Data Visualization: Displays engagement metrics via interactive graphs and charts.
 Sentiment Analysis: Uses natural language processing (NLP) to assess user sentiment from comments and feedback.
@@ -17,6 +18,7 @@ Visual Studio Code (recommended for code editing)
 Installation
 Clone the repository:
 git clone https://github.com/Piyu411/AI-EnhancedEngagementTracker.git
+
 cd AI-EnhancedEngagementTracker
 Create a virtual environment with Anaconda:
 conda create -n engagement-tracker python=3.10
@@ -50,7 +52,7 @@ B) Video_fps :- From the video recorded live or given, we can change the frames 
 C) Video_save :- From the video recorded live or given, we can save the video into the folder 
 D) Video_stack :- From the video recorded live or given, we can combine the videos 
 E) Video_stream From this we can stream or record the video through web cam
-
+ 
 Annotations Libraries or Frame Works used - opencv, labelImg Version - 4.10.0.84, 1.8.6 Developed Logics - 
 A) data_segregate :- From this we can segregate the data of images that we are taken 
 B) label From this label, we can label the images 
