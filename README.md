@@ -34,7 +34,9 @@ Image Processing Libraries or Frame Works used - opencv Version - 4.10.0.84 Deve
 A) Image_Noise removal & Closing Gaps :- From the input image given, used to remove the noise and close the gaps 
 ![i](https://github.com/user-attachments/assets/c678c6f1-b3f8-401e-b1fd-da2f5e79a4fb)![i2](https://github.com/user-attachments/assets/3ba2e7a8-8ad1-45c7-a3a2-5d7e89f1a5d3)![i3](https://github.com/user-attachments/assets/53c67a48-ab6c-48e9-a35d-8d59a3187475)
 
-B) Image_Template :- From the image given, we can 
+B) Image_Template :- From the image given, we can modify the image using it
+![t](https://github.com/user-attachments/assets/c92d20ca-3735-4837-8a69-5378b0139d09)
+
 C) Image_Colour :- From the input image given, increase the quality of colour comination in the image 
 D) Image_Concatenation :- From the input images given, we can conacatenate those images generally used for 2 or more images
 E) Image_Contour :-
