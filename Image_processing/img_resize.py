@@ -1,0 +1,7 @@
+import cv2
+img = cv2.imread(r"C:\\Users\\piyus\\OneDrive\\Desktop\\coding\\FACE UNDER RECO\\o.jpeg", cv2.IMREAD_GRAYSCALE)
+resized = cv2.resize(img, (300, 300))
+
+cv2.imshow('Resized Image', resized)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
