@@ -160,7 +160,8 @@ Performance Optimizations: Depending on hardware, you might consider further dow
 This code provides a detailed attentiveness analysis and comprehensive logging for face recognition sessions.
 ![sgs](https://github.com/user-attachments/assets/15bf1c82-5ba8-4dca-a085-af19e1cb3412)
 ![hwjw](https://github.com/user-attachments/assets/7df6c58f-a2fa-4955-9570-459b3868bcca)
-![Uploading zdm.jpg…]()
+![zdm](https://github.com/user-attachments/assets/72b74d9e-8af0-4130-810b-ae1860a49457)
+
 
 H) atten_score :This code is designed for real-time face recognition and attentiveness analysis using a webcam feed.Face Recognition: The code loads a reference image of "Piyush Singh" and computes its face encoding. In each frame, it checks if the face detected matches the reference with a confidence threshold of 0.6.
 Landmark Detection & Head Pose Estimation:
